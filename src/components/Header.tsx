@@ -2,8 +2,9 @@ import Navbar from "./header/Navbar";
 
 export default function Header() {
   return (
+    //<header className="h-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
     // <header className="h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-    <header className="h-screen bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">
+    <header className="h-screen bg-gradient-to-r from-slate-900 via-indigo-900 to-slate-900">
         <Navbar />
         <div className="px-[8%]">
           <p className="pt-20 text-white text-lg">Trade Synthetic Indices, Forex, and Cryptos with our top recommended brokers.</p>
