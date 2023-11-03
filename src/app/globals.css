@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .product-subtitle {
+      @apply block mt-1 text-lg leading-tight font-medium text-black hover:underline;
+    }
+  }
