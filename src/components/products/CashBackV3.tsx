@@ -3,10 +3,10 @@ import cashBackV3 from "../../../public/image/feature image f 0.png";
 
 export default function CashBackV3() {
     return (
-        <div className="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+        <div className="bg-white rounded-xl shadow-md overflow-hidden w-11/12 m-auto my-10">
             <div className="md:flex">
                 <div className="md:shrink-0">
-                    <Image className="h-48 w-full object-cover md:h-full md:w-48" src={cashBackV3} alt="Cash Back v3 logo"/>
+                    <Image className="h-48 w-full object-cover md:h-full md:w-96" src={cashBackV3} alt="Cash Back v3 logo"/>
                 </div>
                 <div>
                     <div className="p-8">
@@ -18,9 +18,9 @@ export default function CashBackV3() {
 
                         <h4 className="product-subtitle">Good to know!</h4>
                         <p className="my-2 text-slate-500">Payments are currently made via Perfect Money. After your payment, you need to enter your email address to receive your software automatically by email. If you don&apos;t have Perfect Money, you can pay using Mobile Money by contacting the Trading Mate payment agent directly, exclusively via WhatsApp at +225 05 84 57 54 37. Please note that Trading Mate does not collect your email address. The email you provide is solely for sending you the software after payment.</p>
-                        <p  className="product-subtitle">Cash Back v3 Price</p>
+                        <p className="product-subtitle">Cash Back v3 Price</p>
                         <p className="product-subtitle">85 USD</p>
-                        <button className="border-2 border-red-500 bg-red-500 text-white py-2 px-10 rounded-lg text-lg">Buy</button>
+                        <button className="border-2 border-red-500 bg-red-500 text-white py-2 px-10 rounded-lg text-lg mt-6">Buy</button>
                     </div>
                 </div>
             </div>
