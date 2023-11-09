@@ -20,7 +20,7 @@ export default function CashBackV3() {
                         <p className="my-2 text-slate-500">Payments are currently made via Perfect Money. After your payment, you need to enter your email address to receive your software automatically by email. If you don&apos;t have Perfect Money, you can pay using Mobile Money by contacting the Trading Mate payment agent directly, exclusively via WhatsApp at +225 05 84 57 54 37. Please note that Trading Mate does not collect your email address. The email you provide is solely for sending you the software after payment.</p>
                         <p className="product-subtitle">Cash Back v3 Price</p>
                         <p className="product-subtitle">85 USD</p>
-                        <button className="border-2 border-red-500 bg-red-500 text-white py-2 px-10 rounded-lg text-lg mt-6">Buy</button>
+                        <button className="border-2 border-rose-600 bg-rose-600 text-white py-2 px-10 rounded-lg text-lg mt-6">Buy</button>
                     </div>
                 </div>
             </div>
