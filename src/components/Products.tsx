@@ -2,6 +2,7 @@ import CashBackV3 from "./products/CashBackV3"
 import SmartMoneyV2 from "./products/SmartMoneyV2"
 import Training from "./products/Training"
 import Automate from "./products/Automate"
+import Trade from "./products/Trade"
 
 export default function Products() {
     return (
@@ -24,6 +25,9 @@ export default function Products() {
             </div>
             <div>
                 <Automate />
+            </div>
+            <div>
+                <Trade />
             </div>
         </section>
     )
