@@ -35,6 +35,14 @@ export default function Faq() {
                         Given the dynamic and flexible nature of the financial market, it&apos;s challenging to predict in advance the ratio between gain and invested capital. However, the systems/robots can end the week or month in profit as long as you adhere to the system&apos;s recommendations (entry conditions, application of stop-loss). Click here to get an idea of other traders&apos; experiences with the TradingMate Systems/Robots.
                     </p>
                 </li>
+                <li className="py-3">
+                    <h3 className="py-2 font-bold">
+                        <span>5 ) </span>What payment methods are available to purchase the Trading Systems/Robots?
+                    </h3>
+                    <p>
+                        You can make payments via Mobile Money: Orange Money, MTN Money, Wave, or through Electronic Currency: Perfect Money and Bitcoin.
+                    </p>
+                </li>
             </ol>
         </section>
     )
