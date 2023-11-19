@@ -27,6 +27,14 @@ export default function Faq() {
                         Based on our experience with the systems/robots, it is recommended to trade on a 1-hour time frame (H1). However, you can test them on longer time frames, such as 4 hours (H4), 1 day (D1), 1 week (W1), 1 month (MN).
                     </p>
                 </li>
+                <li className="py-3">
+                    <h3 className="py-2 font-bold">
+                        <span>4 ) </span>How much do you earn per day with the Trading Systems/Robots?
+                    </h3>
+                    <p>
+                        Given the dynamic and flexible nature of the financial market, it&apos;s challenging to predict in advance the ratio between gain and invested capital. However, the systems/robots can end the week or month in profit as long as you adhere to the system&apos;s recommendations (entry conditions, application of stop-loss). Click here to get an idea of other traders&apos; experiences with the TradingMate Systems/Robots.
+                    </p>
+                </li>
             </ol>
         </section>
     )
