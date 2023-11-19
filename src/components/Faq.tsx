@@ -59,6 +59,14 @@ export default function Faq() {
                         The installation of the Trading Systems/Robots is the same for all trading systems. Regardless of the trading system/robot, the installation procedure remains the same. Click here to view the installation guide on the TradingMate YouTube channel.
                     </p>
                 </li>
+                <li className="py-3">
+                    <h3 className="py-2 font-bold">
+                        <span>8 ) </span>What to do in case of need for assistance, complaint, or claim?
+                    </h3>
+                    <p>
+                        Your satisfaction and customer experience are invaluable to us, and we strive to be with you every day. In case of need for assistance, complaint, or claim, feel free to contact TradingMate directly via WhatsApp at (225) 05 84 57 54 37.
+                    </p>
+                </li>
             </ol>
         </section>
     )
