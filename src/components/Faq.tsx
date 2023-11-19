@@ -51,6 +51,14 @@ export default function Faq() {
                         To receive your Trading System/Robot, you need to make a deposit via Mobile Money or Electronic Payment. After your purchase, you will need to provide the payment receipt for verification (screenshot/photo of the transaction). Upon receipt of the funds, your System/Robot is instantly sent to your WhatsApp number or by email. In this case, you provide the email address for receiving the system in addition to the payment receipt.
                     </p>
                 </li>
+                <li className="py-3">
+                    <h3 className="py-2 font-bold">
+                        <span>7 ) </span>How to install a Trading System/Robot on a computer?
+                    </h3>
+                    <p>
+                        The installation of the Trading Systems/Robots is the same for all trading systems. Regardless of the trading system/robot, the installation procedure remains the same. Click here to view the installation guide on the TradingMate YouTube channel.
+                    </p>
+                </li>
             </ol>
         </section>
     )
