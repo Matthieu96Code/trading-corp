@@ -67,6 +67,14 @@ export default function Faq() {
                         Your satisfaction and customer experience are invaluable to us, and we strive to be with you every day. In case of need for assistance, complaint, or claim, feel free to contact TradingMate directly via WhatsApp at (225) 05 84 57 54 37.
                     </p>
                 </li>
+                <li className="py-3">
+                    <h3 className="py-2 font-bold">
+                        <span>9 ) </span>Is it possible to get a refund after purchasing a system/robot?
+                    </h3>
+                    <p>
+                        Refund claims are only acceptable within 48 hours (2 days) after purchase. Beyond this period, Trading Mate&apos;s responsibility is no longer engaged, and no refund can be due or claimed. Also, the refund excludes systems/robots trading binary options. We strongly encourage you to consult the refund procedure before any purchase or payment by clicking here.
+                    </p>
+                </li>
             </ol>
         </section>
     )
