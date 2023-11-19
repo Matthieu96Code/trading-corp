@@ -43,6 +43,14 @@ export default function Faq() {
                         You can make payments via Mobile Money: Orange Money, MTN Money, Wave, or through Electronic Currency: Perfect Money and Bitcoin.
                     </p>
                 </li>
+                <li className="py-3">
+                    <h3 className="py-2 font-bold">
+                        <span>6 ) </span>How do you receive your Trading System/Robot after purchase?
+                    </h3>
+                    <p>
+                        To receive your Trading System/Robot, you need to make a deposit via Mobile Money or Electronic Payment. After your purchase, you will need to provide the payment receipt for verification (screenshot/photo of the transaction). Upon receipt of the funds, your System/Robot is instantly sent to your WhatsApp number or by email. In this case, you provide the email address for receiving the system in addition to the payment receipt.
+                    </p>
+                </li>
             </ol>
         </section>
     )
