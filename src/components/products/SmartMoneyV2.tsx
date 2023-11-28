@@ -3,10 +3,11 @@ import smartMoneyV2 from "../../../public/image/I want an image 0.png";
 
 export default function SmartMoneyV2() {
     return (
-        <div className="bg-white rounded-xl shadow-md overflow-hidden w-11/12 m-auto my-10">
-            <div className="md:flex">
-                <div className="md:shrink-0">
-                    <Image className="h-48 w-full object-cover md:h-full md:w-96" src={smartMoneyV2} alt="Smart Money v2 logo"/>
+        <div className="bg-white rounded-xl shadow-md overflow-hidden w-5/12 m-auto my-10">
+            <div className="">
+                <div className="">
+                    {/* <Image className="h-48 w-full object-cover md:h-full md:w-96" src={smartMoneyV2} alt="Smart Money v2 logo"/> */}
+                    <Image className="p-5 h-96 object-cover" src={smartMoneyV2} alt="Smart Money v2 logo"/>
                 </div>
                 <div>
                     <div className="p-8">
