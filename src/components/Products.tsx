@@ -1,6 +1,7 @@
 import Training from "./products/Training"
 import Automate from "./products/Automate"
 import Robots from "./products/Robots"
+import Trade from "./products/Trade"
 
 export default function Products() {
     return (
@@ -16,6 +17,7 @@ export default function Products() {
                 </div>
             </div>
             <div  className="bg-gray-100">
+                <Trade />
             </div>
             <div className="my-4">
                 <h4 className="my-2 text-center text-2xl">Training</h4>
