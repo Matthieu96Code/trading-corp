@@ -24,7 +24,7 @@
 
 # 📖 trading-corp  <a name="about-project"></a>
 
-**trading-corp** is a simple web page for the startup introduction and for showing products, services built using Next.js 13 .
+**trading-corp** is a simple web page for the startup introduction and showing products, and services built using Next.js 13.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -39,7 +39,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Header**
-- **Sections for products and service**
+- **Sections for products and services**
 - **Section FAQ**
 - **Footer for contacts**
 
@@ -50,7 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Not Available
+- [Live](https://trading-corp-k9f30djpo-kodjo-matthieu-senous-projects.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
