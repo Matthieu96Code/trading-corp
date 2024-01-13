@@ -50,7 +50,7 @@ const faqData = [
 
 export default function Faq() {
     return(
-        <section className="bg-gray-100 py-2 flex flex-col">
+        <section className="bg-gray-100 py-24 flex flex-col">
             <h2 className="text-center text-4xl pb-5">FAQ</h2>
             <ol className="w-11/12 m-auto grid grid-cols-4 gap-5">
                 {faqData.map((faq) => (
