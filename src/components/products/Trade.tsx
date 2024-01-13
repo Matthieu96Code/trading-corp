@@ -37,7 +37,7 @@ export default function Trade() {
                         (
                             <div key={index} className="rounded-sm overflow-hidden flex justify-between h-28 px-10 py-5 my-10">
                                 <div className="w-1/5 m-auto shrink-0">
-                                    <Image className="h-auto w-8/12" src={currency.icon} alt={currency.name} width={100} height={100}/>
+                                    <Image className="w-8/12" src={currency.icon} alt={currency.name} width={100} height={100}/>
                                 </div>
                                 <div className="flex flex-col grow m-auto">
                                     <h4 className="text-white mb-5 product-subtitle">{currency.name}</h4>

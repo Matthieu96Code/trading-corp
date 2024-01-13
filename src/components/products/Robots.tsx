@@ -1,6 +1,8 @@
 import Image from "next/image";
-import cashBackV3 from "../../../public/image/feature image f 0.png";
-import smartMoneyV2 from "../../../public/image/I want an image 0.png";
+// import cashBackV3 from "../../../public/image/feature image f 0.png";
+// import smartMoneyV2 from "../../../public/image/I want an image 0.png";
+import cashBackV3 from "../../../public/image/cash-back.png";
+import smartMoneyV2 from "../../../public/image/smart-money.png";
 
 
 export default function Robots() {
@@ -45,14 +47,14 @@ export default function Robots() {
         <>
             {
                 robots.map((robot, index) => (
-                    <div key={index} className="bg-white rounded-xl shadow-md overflow-hidden w-5/12 m-auto my-10">
+                    <div key={index} className="bg-white rounded-sm shadow-md overflow-hidden m-auto my-10">
                         <div className="">
                             <div className="">
-                                <Image className="p-5 h-96 object-cover" src={robot.picture} alt="Cash Back v3 logo"/>
+                                <Image className="h-96 object-cover" src={robot.picture} alt={robot.title}/>
                             </div>
                             <div>
                                 <div className="p-8">
-                                    <h3 className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Cash Back v3</h3>
+                                    <h3 className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">{robot.title}</h3>
                                     <p className="my-2 text-slate-500"><span>{robot.title}</span> {robot.description} </p>
             
                                     <h4 className="product-subtitle">How does it work?</h4>
