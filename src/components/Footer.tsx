@@ -1,6 +1,7 @@
 export default function Footer() {
     return (
-      <footer className="bg-gradient-to-r from-slate-900 via-indigo-900 to-slate-900 text-white">
+    //   <footer className="bg-gradient-to-r from-slate-900 via-indigo-900 to-slate-900 text-white">
+      <footer className="bg-gray-950 text-white">
         <div className="md:flex py-10 px-[8%]">
             <div className="basis-3/6 px-[3%]">
                 <h3 className="my-4 text-xl text-gray-100">
