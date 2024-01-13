@@ -29,25 +29,26 @@ const transfert: { coins: { id: any, icon: string, name: string; details: string
 export default function Trade() {
 
     return (
-        <div className="bg-cover bg-fixed bg-no-repeat bg-[url('/image/training.png')] flex px-10">
-            <div className=" w-5/12 m-auto my-10 grow">
-                <h3 className="text-slate-100 mb-10 product-subtitle">Do you have a trading strategy? We help you automate it.</h3>
+        <div className="bg-cover bg-fixed bg-no-repeat bg-[url('/image/trade-exchange.png')] flex">
+            <div className="m-auto py-10">
+                <h3 className="text-center text-slate-100 product-subtitle my-10">Do you need found to start trading?</h3>
                 {
                     transfert.coins.map((currency, index) => 
                         (
-                            <div key={index} className="rounded-sm overflow-hidden flex justify-between h-28 px-10 py-5 my-10">
+                            <div key={index} className=" pb-10 rounded-sm overflow-hidden justify-between md:flex">
                                 <div className="w-1/5 m-auto shrink-0">
                                     <Image className="w-8/12" src={currency.icon} alt={currency.name} width={100} height={100}/>
                                 </div>
                                 <div className="flex flex-col grow m-auto">
-                                    <h4 className="text-white mb-5 product-subtitle">{currency.name}</h4>
-                                    <p className="my-2 text-slate-100">{currency.details}</p>
+                                    <h4 className="text-center text-white product-subtitle">{currency.name}</h4>
+                                    <p className="text-center text-slate-100">{currency.details}</p>
                                 </div>
-                                <button type="button" className="flex items-center px-10 border-white">
+                                <button type="button" className="mx-auto my-5 flex items-center px-10 border border-slate-100 rounded-lg">
                                     <p className="text-white px-5">Exchange</p>
                                     <GiBuyCard size={48} color={"white"}/>
                                 </button>
-                            </div>         
+                                <hr className="background-slate-100" />
+                            </div>     
                         )
                     )
                 }
