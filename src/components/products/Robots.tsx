@@ -3,6 +3,7 @@ import Image from "next/image";
 // import smartMoneyV2 from "../../../public/image/I want an image 0.png";
 import cashBackV3 from "../../../public/image/cash-back.png";
 import smartMoneyV2 from "../../../public/image/smart-money.png";
+import Link from "next/link";
 
 
 export default function Robots() {
@@ -64,7 +65,7 @@ export default function Robots() {
                                     <br />
                                     <p className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Price</p>
                                     <p className="text-slate-500">{robot.price}</p>
-                                    <button className="border-2 border-rose-600 bg-rose-600 text-white py-2 px-10 rounded-lg text-lg mt-6">Buy</button>
+                                    <button className="main-button mt-6"><Link href="https://deriv.com/help-centre/">Buy</Link></button>
                                 </div>
                             </div>
                         </div>
