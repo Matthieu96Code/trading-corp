@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 // import automate from "../../../public/image/EADev.png";
 import { GiBuyCard } from "react-icons/gi";
 // import { currencies } from "./trade/Currencies";
@@ -29,9 +30,9 @@ const transfert: { coins: { id: any, icon: string, name: string; details: string
 export default function Trade() {
 
     return (
-        <div className="bg-cover bg-fixed bg-no-repeat bg-[url('/image/trade-exchange.png')] flex">
+        <div className="bg-cover bg-fixed bg-no-repeat bg-[url('/image/trade-exchange.png')] flex" id="exchange">
             <div className="m-auto py-10">
-                <h3 className="text-center text-slate-100 product-subtitle my-10">Do you need found to start trading?</h3>
+                <h3 className="text-center text-2xl text-slate-100 product-subtitle my-10">Would you like to buy or sell Perfect Money or Bitcoin?</h3>
                 {
                     transfert.coins.map((currency, index) => 
                         (
@@ -44,7 +45,7 @@ export default function Trade() {
                                     <p className="text-center text-slate-100">{currency.details}</p>
                                 </div>
                                 <button type="button" className="mx-auto my-5 flex items-center px-10 border border-slate-100 rounded-lg">
-                                    <p className="text-white px-5">Exchange</p>
+                                    <Link href="https://deriv.com/markets/exchange-traded-funds/" className="text-white px-5">Exchange</Link>
                                     <GiBuyCard size={48} color={"white"}/>
                                 </button>
                                 <hr className="background-slate-100" />
