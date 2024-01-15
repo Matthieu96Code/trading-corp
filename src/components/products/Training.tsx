@@ -20,7 +20,7 @@ export default function Training() {
 
                     <p className="text-white product-subtitle">Price : $350 | One-time payment </p>
                     <p className="text-white product-subtitle">Program durarion : 1 Month</p>
-                    <button className="border-2 border-rose-600 bg-rose-600 text-white py-2 px-10 rounded-lg text-lg mt-6">I&apos;m interested</button>
+                    <button className="main-button mt-6">I&apos;m interested</button>
                 </div>
             </div>
         </div>
