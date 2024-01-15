@@ -6,4 +6,8 @@
     .product-subtitle {
       @apply block mt-1 text-lg leading-tight font-medium text-black hover:underline;
     }
+
+    .main-button {
+      @apply border-2 border-rose-600 bg-rose-600 hover:bg-white hover:text-rose-800 text-white py-2 px-10 rounded-lg text-lg duration-500;
+    }
   }
