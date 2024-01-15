@@ -23,7 +23,7 @@ export default function Footer() {
                 </div>
                 <div className="pb-2">
                     <p className="text-sm text-gray-300">
-                        <a href="mailto:senoumatthieu96@gmail.com" className="text-gray-300">senoumatthieu96@gmail.com</a>
+                        <a href="mailto:senoumatthieu96@gmail.com" className="text-gray-300 hover:text-rose-600">senoumatthieu96@gmail.com</a>
                     </p>
                 </div>
             </div>
@@ -32,10 +32,10 @@ export default function Footer() {
                     Quick Links
                 </h3>
                 <ul className="text-sm text-gray-300">
-                    <li className="pb-1"><a href="#">Home</a></li>
-                    <li className="pb-1"><a href="#">About</a></li>
-                    <li className="pb-1"><a href="#">Products</a></li>
-                    <li className="pb-1"><a href="#">Contact</a></li>
+                    <li className="pb-1 hover:text-rose-600"><a href="#home">Home</a></li>
+                    <li className="pb-1 hover:text-rose-600"><a href="#sevices">Services</a></li>
+                    <li className="pb-1 hover:text-rose-600"><a href="#products">Products</a></li>
+                    <li className="pb-1 hover:text-rose-600"><a href="#faqs">faqs</a></li>
                 </ul>
             </div>
         </div>
