@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "../../../node_modules/next/image";
-import automate from "../../../public/image/automate.png";
+import automate from "../../../public/image/meeting.png";
 
 export default function Automate() {
     return (
