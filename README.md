@@ -50,8 +50,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live](https://trading-corp-k9f30djpo-kodjo-matthieu-senous-projects.vercel.app)
-- [production link](https://trading-corp.vercel.app)
+- [Production live link](https://trading-corp.vercel.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
