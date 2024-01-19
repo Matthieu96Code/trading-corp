@@ -19,17 +19,17 @@ export default function Navbar() {
             <button onClick={() => ToggleEvent()} className="md:hidden hover:text-rose-600">Menu</button>
           </div>
           <ul onClick={() => ToggleEvent()} className="mt-10 flex flex-col items-center gap-10">
-            <li>
-              <Link className="hover:text-rose-600" href="#services">Services</Link>
+            <li className="w-1/2 text-center border border-red-600 py-2 hover:bg-white ">
+              <Link className="hover:text-rose-600 py-2 px-16" href="#services">Services</Link>
             </li>
-            <li>
-              <Link className="hover:text-rose-600" href="#products">Products</Link>
+            <li className="w-1/2 text-center border border-red-600 py-2 hover:bg-white">
+              <Link className="hover:text-rose-600 py-2 px-16" href="#products">Products</Link>
             </li>
-            <li>
-              <Link className="hover:text-rose-600" href="#exchange">Exchange</Link>
+            <li className="w-1/2 text-center border border-red-600 py-2 hover:bg-white">
+              <Link className="hover:text-rose-600 py-2 px-16" href="#exchange">Exchange</Link>
             </li>
-            <li>
-              <Link className="hover:text-rose-600" href="#facs">Facs</Link>
+            <li className="w-1/2 text-center border border-red-600 py-2 hover:bg-white">
+              <Link className="hover:text-rose-600 py-2 px-16" href="#facs">Facs</Link>
             </li>
           </ul>
         </nav>
